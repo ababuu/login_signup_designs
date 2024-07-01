@@ -1,0 +1,488 @@
+.enterYourCredentials,
+.welcomeBack1 {
+  margin: 0;
+  position: relative;
+  font-weight: 500;
+  font-family: inherit;
+}
+.welcomeBack1 {
+  font-size: inherit;
+}
+.enterYourCredentials {
+  font-size: var(--font-size-base);
+}
+.welcomeBack {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-7xs-1);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.name {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 100px;
+}
+.nameFieldLabel,
+.nameInput1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.nameFieldLabel {
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+}
+.nameInput1 {
+  width: 102px;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  height: 15px;
+  justify-content: center;
+  font-family: var(--font-poppins);
+  font-weight: 500;
+  font-size: var(--font-size-3xs);
+  color: var(--muted);
+}
+.nameFieldLabelParent,
+.nameInputWrapper {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.nameInputWrapper {
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--muted);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-6xs) var(--padding-3xs);
+}
+.nameFieldLabelParent {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-7xs-6);
+}
+.name1 {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 69px;
+}
+.passwordFieldLabel,
+.passwordInput {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.passwordFieldLabel {
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+}
+.passwordInput {
+  width: 51px;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  height: 15px;
+  justify-content: center;
+  font-family: var(--font-poppins);
+  font-weight: 500;
+  font-size: var(--font-size-3xs);
+  color: var(--muted);
+}
+.passwordFieldLabelParent,
+.passwordInputWrapper {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.passwordInputWrapper {
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--muted);
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-6xs) var(--padding-3xs);
+  z-index: 1;
+}
+.passwordFieldLabelParent {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-7xs-6);
+}
+.forgotPassword {
+  position: relative;
+  font-size: var(--font-size-3xs);
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--action-sec);
+  text-align: left;
+  display: inline-block;
+  min-width: 83px;
+  z-index: 2;
+}
+.forgotPasswordLink,
+.socialLogin {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.socialLogin {
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-9xs);
+  margin-top: -58.6px;
+}
+.forgotPasswordLink {
+  height: 58.6px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.backgroundImageChild {
+  width: 9px;
+  height: 10px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.backgroundImage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-2) 0 0;
+}
+.rememberFor30 {
+  position: relative;
+  font-size: var(--font-size-4xs);
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 104px;
+}
+.nameInput,
+.signUpLink {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.signUpLink {
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-7xs);
+}
+.nameInput {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-xl);
+}
+.name2,
+.nameWrapper {
+  width: 43px;
+  display: none;
+}
+.name2 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: left;
+  white-space: nowrap;
+}
+.nameWrapper {
+  height: 21px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.name3,
+.nameContainer {
+  width: 31px;
+  display: none;
+}
+.name3 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-3xs);
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--muted);
+  text-align: left;
+}
+.nameContainer {
+  height: 15px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.frameParent,
+.loginButtonBackground {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.loginButtonBackground {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkolivegreen);
+  border: 1px solid var(--color-darkolivegreen);
+  box-sizing: border-box;
+  overflow: hidden;
+  align-items: center;
+  padding: var(--padding-3xs) 0 var(--padding-3xs) var(--padding-3xs);
+}
+.frameParent {
+  width: 404px;
+  align-items: flex-start;
+}
+.login {
+  position: relative;
+  font-size: var(--font-size-smi);
+  display: inline-block;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+  min-width: 36px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.instanceParent,
+.loginFormInner,
+.loginWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.loginWrapper {
+  flex-direction: column;
+  padding: var(--padding-7xs) 0 0;
+  margin-left: -219px;
+}
+.instanceParent,
+.loginFormInner {
+  align-self: stretch;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.instanceParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0 0 var(--padding-9xs-4);
+  background-color: transparent;
+  flex: 1;
+}
+.loginFormInner {
+  height: 50.2px;
+  padding: 0 0 var(--padding-mini-8);
+}
+.or {
+  position: relative;
+  font-size: var(--font-size-4xs);
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 11px;
+}
+.divider,
+.loginForm,
+.orWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.orWrapper {
+  width: 20px;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.divider,
+.loginForm {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-3xl) 0 var(--padding-xl);
+}
+.loginForm {
+  margin: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-7xl-7);
+  box-sizing: border-box;
+  gap: var(--gap-lgi-9);
+  max-width: 100%;
+}
+.icons8Google1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.signInWith {
+  position: relative;
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 116px;
+}
+.socialLoginButtonLabels {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.socialLoginButtons {
+  cursor: pointer;
+  border: 1px solid var(--muted);
+  padding: var(--padding-11xs) var(--padding-lgi);
+  background-color: transparent;
+  border-radius: var(--br-3xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.icons8AppleLogo1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.signInWith1 {
+  position: relative;
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 108px;
+}
+.icons8AppleLogo1Parent {
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.card,
+.icons8AppleLogo1Parent,
+.socialLoginButtons1 {
+  display: flex;
+  align-items: center;
+}
+.socialLoginButtons1 {
+  cursor: pointer;
+  border: 1px solid var(--muted);
+  padding: var(--padding-11xs) var(--padding-4xl);
+  background-color: transparent;
+  border-radius: var(--br-3xs);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+}
+.card {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-4xl);
+}
+.dontHaveAn {
+  white-space: pre-wrap;
+}
+.signUp {
+  color: var(--color-mediumblue);
+}
+.dontHaveAnContainer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.dontHaveAnAccountSignUpWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-16xl);
+}
+.cardParent,
+.welcomeMessage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cardParent {
+  align-self: stretch;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-3xl-8);
+  font-size: var(--font-size-sm);
+}
+.welcomeMessage {
+  position: absolute;
+  top: 230px;
+  left: 175px;
+  width: 404px;
+  height: 580.8px;
+  padding: 0 0 var(--padding-145xl-8);
+  box-sizing: border-box;
+  gap: var(--gap-43xl-3);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 750px) {
+  .welcomeBack1 {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .welcomeBack1 {
+    font-size: var(--font-size-lgi);
+  }
+  .card {
+    flex-wrap: wrap;
+  }
+  .welcomeMessage {
+    height: auto;
+  }
+}
